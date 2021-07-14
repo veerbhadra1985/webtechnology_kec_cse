@@ -1,0 +1,28 @@
+#para1 { color: red;
+    text-align: center; font-family:courier;
+    }
+    
+    h1{
+    color:blue; font-size:200%; text-align:right;
+    background-color: #6495ed;
+    }
+    
+    #para {
+    color: green;
+    text-align: center; font-size:500%;
+    }
+    
+    p{
+    border:1px solid black; padding:10px; margin:30px;
+    background-color: #e0ffff;
+    }
+    
+    body {
+    
+    background-image:url("bird.jpeg");
+    
+    }
+    
+    div{
+    text-decoration:overline; font-size:200%;
+    }

@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(206, 92%, 94%);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 0 3.4rem;
+}
+
+nav {
+  font-size: 2rem;
+  background-image: linear-gradient(rgb(102, 235, 97), rgb(0, 247, 255));
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  cursor: pointer;
+  padding: 0.5rem;
+  flex: auto;
+  text-align: center;
+}
+
+nav ul li:hover {
+  background-image: linear-gradient(rgb(241, 116, 231), rgb(153, 0, 255));
+  color: #fff;
+}
+
+#myPic {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  display: flex;
+  margin-left: 33rem;
+  margin-top: 3rem;
+  border: 5px solid rgb(80, 147, 235);
+}
+.name {
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  color: #f8a5a5;
+  margin-left: 33rem;
+}
+#about {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24rem;
+  margin-right: 28rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  background-color: #74b9ff;
+  font-family: "Roboto", sans-serif;
+  resize: none;
+  border: 1px solid #74b9ff;
+  color: white;
+  width: 45rem;
+  height: 8rem;
+  box-shadow: 2px -1px 24px -3px rgba(0, 0, 0, 0.75);
+}
+.education {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24rem;
+  margin-right: 28rem;
+  background-color: coral;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 2px -1px 24px -3px rgba(0, 0, 0, 0.75);
+  font-family: "Playfair Display", serif;
+}
+#mySchool {
+  display: flex;
+  margin-left: 28rem;
+  margin-top: 3rem;
+  border: 5px solid rgb(221, 191, 255);
+  border-radius: 1rem;
+}
+.firstEdu {
+  color: rgb(251, 255, 0);
+}
+.secondEdu {
+  color: rgb(159, 240, 233);
+}
+.school {
+  color: rgb(158, 219, 100);
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid hsl(206, 92%, 94%);
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  resize: none;
+  font-family: "Mulish", sans-serif;
+  outline: none;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-family: "Mulish", sans-serif;
+}
+
+input[type="submit"] {
+  background-image: radial-gradient(rgb(180, 97, 248), rgb(222, 111, 226));
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  font-family: "Mulish", sans-serif;
+  outline: none;
+}
+
+body{
+  overflow: hidden;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: hsl(206, 92%, 94%);
+  border-radius: 1rem;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: rgb(140, 140, 228);
+  border-radius: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 6rem;
+  padding: 0rem 0rem;
+}
+#linkedin:hover {
+  background-color: rgb(40, 103, 178);
+  box-shadow: 2px -1px 24px -3px rgba(40, 103, 178, 0.75);
+}
+#github:hover {
+  background-color: rgb(0, 0, 0);
+  box-shadow: 2px -1px 24px -3px rgba(0, 0, 0, 0.75);
+}
+#twitter:hover {
+  background-color: rgb(13, 167, 228);
+  box-shadow: 2px -1px 24px -3px rgba(13, 167, 228, 0.75);
+}
+#facebook:hover {
+  background-color: #3b5998;
+  box-shadow: 2px -1px 24px -3px rgba(0, 0, 0, 0.75);
+}
+#instagram:hover {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(64, 93, 230),
+    rgb(88, 81, 219),
+    rgb(131, 58, 180),
+    rgb(193, 53, 132),
+    rgb(225, 48, 108),
+    rgb(253, 29, 29),
+    rgb(245, 96, 64),
+    rgb(247, 119, 55),
+    rgb(252, 175, 69),
+    rgb(255, 220, 128)
+  );
+  box-shadow: 2px -1px 24px -3px rgba(131, 58, 180, 0.75);
+}
+#telegram:hover {
+  background-color: rgb(0, 169, 236);
+  box-shadow: 2px -1px 24px -3px rgba(0, 169, 236, 0.75);
+}
+#skillsBody {
+  background-color: hsl(29, 24%, 81%);
+}
+.dev-icons {
+  font-size: 3rem;
+  list-style: none;
+  display: flex;
+}
+.dev-icons .list-inline-item i:hover {
+  color: rgb(240, 169, 15);
+}
+#html:hover {
+  color: red;
+}
+#css:hover {
+  color: rgb(43, 76, 226);
+}
+#node:hover {
+  color: green;
+}
+#react:hover {
+  color: aqua;
+}
+#npm:hover {
+  color: brown;
+}
+#wordpress:hover {
+  color: rgb(2, 2, 136);
+}
+#sass:hover {
+  color: rgb(236, 126, 144);
+}
+#linux:hover {
+  color: #000;
+}
+#skills {
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  color: darkmagenta;
+}
+#marquee {
+  font-family: "Libre Baskerville", serif;
+  color: slateblue;
+}
