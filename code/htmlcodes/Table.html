@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+  </head>
+  <style>
+      table{
+          border: 3px double black;
+      }
+      tr{
+        border: 3px solid black;
+      }
+      td{
+        border: 3px solid black;
+      }
+      #inside{
+          border: 1px solid black;
+      }
+  </style>
+  <body>
+    <table>
+      <caption>
+        My Custom Table
+      </caption>
+      <tr>
+        <td>
+          <table id="inside">
+              <caption>Table Inside Table</caption>
+            <tr id="inside">
+              <td id="inside">Hello</td>
+              <td id="inside">Hi</td>
+            </tr>
+            <tr id="inside">
+              <td id="inside">Namste</td>
+              <td id="inside">Namskar</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+            <img src="./img.jpg" alt="" width="100" height="100">
+        </td>
+      </tr>
+      <tr>
+        <td>
+            <p>Hi My name is Yogesh Gaur </p>
+            <p>I study in KEC </p>
+        </td>
+        <td>
+            <a href="https:github.com/imyogeshgaur"> My github Profile</a>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
